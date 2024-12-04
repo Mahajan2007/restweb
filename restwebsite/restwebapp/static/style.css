@@ -1,0 +1,92 @@
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: rgb(239, 193, 193);
+  }
+  
+header {
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+  }
+  
+header nav ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+header nav ul li {
+    display: inline;
+    margin: 0 20px;
+  }
+  
+header nav ul li a {
+    color: rgb(244, 241, 241);
+    text-decoration: none;
+    font-size: 18px;
+  }
+  
+section {
+    padding: 40px 20px;
+  }
+  
+#home {
+    background: url('korean\ food.avif') no-repeat center/cover;
+    color: rgb(98, 154, 174);
+    text-align: center;
+    padding: 100px 0;
+    font-family:fantasy
+  }
+  
+.hero h2 {
+    font-size: 40px;
+  }
+  
+.menu-item {
+    display: inline-block;
+    width: 20%;
+    margin: 10px 2%;
+    text-align: center;
+  }
+  
+.menu-item img {
+    width: 100%;
+    border-radius: 8px;
+  }
+  
+button {
+    background-color: #333;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+  }
+  
+button:hover {
+    background-color: #555;
+  }
+  
+
+  
+form {
+    display: grid;
+    gap: 15px;
+    max-width: 400px;
+    margin: 0 auto;
+  }
+  
+input[type="text"],
+input[type="email"],
+input[type="date"],
+input[type="time"] {
+    padding: 10px;
+    font-size: 16px;
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
